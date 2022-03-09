@@ -2,12 +2,12 @@ clc
 clear
 close all
 %---------primer punto-------
-tao=3.5/4;
-k=-1.8/2.7;
+tao=1.8/4;
+k=-3.1/2.7;
 h=tf(k,[tao 1]);
-step(-2.7*h)
+step(-3.6*h)
 figure
-step(5.6*h)
+
 
 %------segundo punto---------
 R=20;%1e3;
